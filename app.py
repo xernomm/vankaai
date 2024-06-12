@@ -10,6 +10,9 @@ import pandas as pd
 import PyPDF2
 from docx import Document
 from io import StringIO
+import os
+import sys
+
 
 logging.basicConfig(level=logging.INFO)
 
