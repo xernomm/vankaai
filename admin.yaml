@@ -1,0 +1,18 @@
+credentials:
+  usernames:
+    xernom:
+      email: rafaelrichie03@gmail.com
+      name: Rafael Richie
+      password: admin1234 # To be replaced with hashed password
+    ridho:
+      email: ridhoyp@gmail.com
+      name: Ridho
+      password: admin1234 # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - rafaelrichie03@gmail.com
+  - ridhoyp@gmail.com

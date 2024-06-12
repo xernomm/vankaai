@@ -13,14 +13,7 @@ from io import StringIO
 
 logging.basicConfig(level=logging.INFO)
 
-st.set_page_config(
-    page_title="Vanka AI",
-    page_icon="💬",
-    layout="centered",
-    # initial_sidebar_state="expanded",
-)
 
-st.header("Vanka AI 1.0")
 
 def read_pdf(file):
     """
@@ -63,10 +56,14 @@ def extract_model_names(models_info: list) -> tuple:
 
 
 def main():
+    
+
+
+    st.header("Vanka AI 1.0")
     logging.info("App started")  # Log that the app has started
 
     # Sidebar for model selection
-    model = "llama3:latest"
+    model = "llama3"
     logging.info(f"Model selected: {model}")
 
     client = OpenAI(
